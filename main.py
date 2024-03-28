@@ -2,12 +2,12 @@ import os
 from datetime import date, time, datetime
 import datetime
 
-total_day = 366 #total days back
-commit_frequency = 10 #commit time per day
+total_day = 366*4 #total days back
+commit_frequency = 1 #commit time per day
 repo_link = "https://github.com/0xmatthewlee/eth-tx-utils.git"
 
 tl = total_day #time day
-ctr = 1
+ctr = 10
 
 now = datetime.datetime.now()
 
